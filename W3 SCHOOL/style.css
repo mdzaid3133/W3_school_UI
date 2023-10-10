@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navigation css*/
+
+.navbar .nav-item{
+    margin-left: 1rem;
+     padding: 15px 0px;
+}
+
+.navbar .nav-item:hover{
+    background-color:  #04AA6D !important;
+}
+.navbar .nav-item a{
+    color: black !important;
+    font-size: 1.1rem;
+}
+/*home banner css*/
+.home-banner {
+    background-color: #282A35 !important;
+    padding: 6rem 0rem;
+}
+/* .home-banner  .banner-text h1{
+   color: white;
+   font-size: 5rem;
+}  */
+.home-banner  .banner-text a{
+    color: white !important;
+    text-decoration: underline;
+}
+.home-banner  .banner-text .input{
+   padding: 0.8rem 3rem;
+}
+/*html css*/
+.html-section{
+    background-color: #D9EEE1!important;
+    padding: 6rem 0rem;
+}
+/*css css*/
+.css-section{
+    background-color: #FFF4A3!important;
+    padding: 6rem 0rem;
+}
+/*js css*/
+.javascript-section{
+    background-color: #282A35 !important;
+     padding: 6rem 0rem;
+}
+.python-section{
+    background-color: #F3ECEA!important;
+    padding: 6rem 0rem;
+}
+/*sql css*/
+.SQL-section{
+    background-color: #96D4D4!important;
+    padding: 6rem 0rem;
+}
+/*popplur section css*/
+.popular-course-2 .card {
+  padding: 3rem 0rem;
+}
+/*pro user css*/
+.pro-user .pro-user-list p{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+/*ex-qz-css*/
+.ex-qz .text-box{
+    padding: 5rem;
+}
+
+/*html-tutorial css*/
+/*menu-bar*/
+/* .menu-bar{
+    background-color: #0f0e0e;
+    position: relative;
+    top: 73px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+} */
+/*side bar css*/
+ 
+.sidebar {
+    position: fixed;
+    top: 73px;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    padding-top:.5rem;
+ 
+  }
+
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: 100%;
+    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+ @media (max-width: 768px) {
+    .sidebar {
+      margin-left: -250px;
+      width: 250px;
+    }
+    .sidebar-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 48px;
+    }
+  }  
+  .main {
+    padding: 15px;
+  } 
+
+  .sidebar-sticky .nav-item{
+    border-bottom: 2px solid gray;
+  }
+  .sidebar-sticky .nav-item .nav-link{
+    color: black;
+    font-weight: 400;
+  }
+/*side bar css end*/  
+/* .toggle-btn{
+    font-size: 22px;
+    color:rgb(24, 4, 4);
+    background-color: rgb(74, 134, 84);
+    padding: 5px 10px;
+    border-radius: 5px;
+} */
+/* .HTML-tutorial-section{
+    position: relative;
+    top: 112px;
+    z-index: 1;
+} */
+/* .navbar-nav button{
+    margin-left: 20px;
+} */
+::-webkit-scrollbar{
+    width: 10px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(99, 98, 98);
+    border-radius: 5px;
+}
+/* .wrapper .sidebar{
+    top: 5;
+background-color: #E7E9EB;
+ height: 100%;
+ position: fixed;
+ display: flex;
+ flex-direction: column;
+ overflow-y: scroll;
+ overflow-x: hidden; 
+ 
+}
+.wrapper .sidebar a li{
+    color: black;
+    padding: 10px 14px;
+    border-bottom: 1px solid black;
+    list-style: none;
+} */
+
+/* sm-61 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.commanbtn{
+    margin: auto;
+    display: block;
+    width: 220px;
+    margin-bottom: 1rem;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 0.7rem 1rem;
+    border: unset;
+}
+.main-btn{
+    width: 220px;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 0.7rem 1rem;
+    border: unset;
+}
+
+.section-py{
+    padding: 6rem 0rem;
+}
+.card{
+    border: unset;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+/* a:hover{
+    color:white !important;
+} */
+h2{
+   margin: unset;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+h5{
+    margin-bottom: 2rem;
+}
+.yello{
+    background-color: #FFF4A3!important;
+    color: black!important;
+}
+.blk{
+    background-color: #282A35!important;
+    color: white;
+}
+.pink{
+    background-color: #FFC0C7!important;
+    color: black!important;
+}
+.green{
+    background-color:  #04AA6D !important;
+}
+.gray{
+    background-color: rgb(199, 193, 193) ;
+    color: #000;
+}
+.light-pink{
+    background-color: #F3ECEA!important;
+    color: black!important;
+}
+.turquoise {
+    background-color: #96D4D4!important;
+    color: black!important;
+}
+/*course-box background color*/
+.first-bg{
+   background-color: #FFC0C7;;
+}
+.second-bg{
+    background-color: #96D4D4;
+}
+.third-bg{
+    background-color: #D9EEE1;
+}
+.sky{
+    background-color: #96D4D4!important;
+}
+.creem{
+    background-color: #F3ECEA;
+}
+.l-green{
+    background-color: #D9EEE1;
+}
+   
+/*text-color*/
+.t-pink{
+    color: pink;
+}
+
+
+ 

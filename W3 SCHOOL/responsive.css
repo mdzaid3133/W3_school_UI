@@ -1,0 +1,9 @@
+@media (max-width:500px)
+{
+    h1{
+       font-size: 4rem; 
+    }
+    .navbar .nav-item:hover{
+       background-color:unset;
+    }
+}
